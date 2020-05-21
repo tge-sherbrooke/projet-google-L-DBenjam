@@ -7,7 +7,6 @@ ol {
     display: inline;
     font-family: "arial", "sans-serif";
     font-size: 13px;
-    
 }
 
 ol.fright {
@@ -19,7 +18,7 @@ ol.fleft{
     float: left;
     position: relative ;
     padding: 5px;
-
+    color: rgb(112, 112, 112);
 }
 
 #appli{
@@ -35,6 +34,25 @@ ol.fleft{
 }
 
 div.centre{
-    padding-top: 190px;
-    
+    padding-top: 180px;
+}
+
+input[type=text]{
+    padding: 15px;
+    margin-top: 22px;
+    box-sizing: border-box;
+    border-radius: 30px;
+    border: 1px solid rgb(216, 218, 221);
+    width: 480px;
+}
+
+input[type=button]{
+    margin-top: 25px;
+    background-color: white;
+    width: 120px;
+    border: white;
+    padding: 15px 20px;
+    margin-right: 10px;
+    font-size: 14px;
+    color: rgb(100, 100, 100);
 }
